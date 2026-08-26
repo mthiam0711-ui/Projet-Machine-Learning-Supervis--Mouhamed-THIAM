@@ -1,0 +1,16 @@
+{
+  "final_model": "RandomForestClassifier (Optuna-tuned, isotonic-calibrated)",
+  "best_params": {
+    "n_estimators": 350,
+    "max_depth": 17,
+    "min_samples_split": 4,
+    "min_samples_leaf": 6,
+    "max_features": "log2",
+    "class_weight": "balanced_subsample",
+    "criterion": "entropy"
+  },
+  "decision_threshold": 0.03,
+  "cv_f1_mean": 0.6370323139689836,
+  "cost_fn_eur": 400,
+  "cost_fp_eur": 20
+}
